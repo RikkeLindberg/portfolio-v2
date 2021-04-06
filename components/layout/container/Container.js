@@ -6,8 +6,8 @@ export default function Container({ children }) {
     return (
         <>
             <Navbar/>
-                <main>
-                    <div>
+                <main className="wrapper">
+                    <div className="container">
                         { children }
                     </div>
                 </main>
