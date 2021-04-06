@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Landingpage from "../components/sections/Landingpage";
+import Banner from "../components/sections/Banner";
 import About from "../components/sections/About";
 import Portfolio from "../components/sections/Portfolio";
 import Contact from "../components/sections/Contact";
@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="description" content="front end developer from Vesterålen" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Landingpage />
+      <Banner />
       <About />
       <Portfolio />
       <Contact />

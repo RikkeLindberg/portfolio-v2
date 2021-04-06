@@ -1,4 +1,4 @@
-import Container from "../components/layout/container/Container";
+import Container from "../components/layout/Container";
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
