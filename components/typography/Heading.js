@@ -1,11 +1,14 @@
 import PropTypes from "prop-types";
 
-export default function Heading({ title }) {
+export default function Heading({ size = "1", title }) {
+    const HeadingTag = `h${size}`;
+
     return (
-        <h1>{title}</h1>
+        <HeadingTag>{title}</HeadingTag>
     )
 }
 
 Heading.propTypes = {
-	title: PropTypes.string,
+    size: PropTypes.string,
+	title: PropTypes.string.isRequired,
 };
