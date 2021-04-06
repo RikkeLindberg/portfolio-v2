@@ -4,6 +4,9 @@ export default function Navbar() {
     return (
         <nav>
             <ul>
+            <li>
+                    <Link href="#home"><a>Home</a></Link>
+                </li>
                 <li>
                     <Link href="#about"><a>About</a></Link>
                 </li>
@@ -11,7 +14,7 @@ export default function Navbar() {
                     <Link href="#portfolio"><a>Portfolio</a></Link>
                 </li>
                 <li>
-                    <Link href="contact"><a>Contact</a></Link>
+                    <Link href="#contact"><a>Contact</a></Link>
                 </li>
             </ul>
         </nav>
