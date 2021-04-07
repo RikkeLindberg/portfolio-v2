@@ -9,6 +9,6 @@ export default function Heading({ size = "1", title }) {
 }
 
 Heading.propTypes = {
-    size: PropTypes.string,
+    size: PropTypes.string.isRequired,
 	title: PropTypes.string.isRequired,
 };
