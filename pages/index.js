@@ -8,10 +8,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Rikke Lindberg</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="front end developer" />
         <meta name="description" content="front end developer from Vesterålen" />
+        <meta charSet="utf-8" />
         <link rel="icon" href="/favicon.ico" />
+        <title>Rikke Lindberg</title>
       </Head>
       <Banner />
       <About />
