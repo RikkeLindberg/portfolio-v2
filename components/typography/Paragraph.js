@@ -7,5 +7,5 @@ export default function Paragraph({ content }) {
 }
 
 Paragraph.propTypes = {
-	content: PropTypes.string,
+	content: PropTypes.string.isRequired,
 };
