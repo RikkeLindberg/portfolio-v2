@@ -1,4 +1,4 @@
-export const courses = [
+export const courseData = [
     {
         'id': 1,
         'name': 'Advanced CSS and Sass',
