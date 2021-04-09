@@ -11,9 +11,7 @@ import {
     SiSass,
     SiReact,
     SiNextDotJs,
-    SiWordpress,
-    SiStrapi,
-    SiTailwindcss,
+    SiWordpress
 } from "react-icons/si";
 import Heading from "../../typography/Heading";
 
@@ -40,8 +38,6 @@ export default function Tools() {
                 <li><SiReact /></li>
                 <li><SiNextDotJs /></li>
                 <li><SiWordpress /></li>
-                <li><SiStrapi /></li>
-                <li><SiTailwindcss /></li>
             </ul>
         </div>
     )
