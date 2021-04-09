@@ -201,3 +201,8 @@ section {
 .progress-line.ts span::after {
   content: "10%";
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+}
