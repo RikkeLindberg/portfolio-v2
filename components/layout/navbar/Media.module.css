@@ -1,0 +1,12 @@
+.media {
+  margin-right: 1.7rem;
+}
+
+.media__icon {
+  font-size: 3rem;
+  color: #f1f1f1;
+}
+
+.media__link:not(:last-of-type) {
+  margin-right: 1rem;
+}

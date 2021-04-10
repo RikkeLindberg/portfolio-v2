@@ -3,7 +3,7 @@ export default function Footer() {
 
     return (
         <footer className="footer">
-          <small>{currentYear} &copy; rikke lindberg. All rights reserved.</small>
+          <small>{currentYear} &copy; Rikke Lindberg. All rights reserved.</small>
         </footer>
     )
 }

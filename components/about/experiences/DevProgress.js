@@ -1,63 +1,66 @@
-import Heading from '../../typography/Heading'
+import Heading from '../../typography/Heading';
+import styles from './DevProgress.module.css';
 
 export default function DevProgress() {
     return (
-        <div className="progress-bars">
-            <Heading size="2" title="Development"/>
-            <div className="progress">
-                <div className="progress-title">
-                    <span>HTML</span>
+        <div className={styles.progressBars}>
+            <Heading size="3" title="Development"/>
+            <div>
+                <div className={styles.progress}>
+                    <div className={styles.progressTitle}>
+                        <span>HTML</span>
+                    </div>
+                    <div className={`${styles.progressLine} ${styles.html}`}>
+                        <span></span>
+                    </div>
                 </div>
-                <div className="progress-line html">
-                    <span></span>
+                <div className={styles.progress}>
+                    <div className={styles.progressTitle}>
+                        <span>CSS</span>
+                    </div>
+                    <div className={`${styles.progressLine} ${styles.css}`}>
+                        <span></span>
+                    </div>
                 </div>
-            </div>
-            <div className="progress">
-                <div className="progress-title">
-                    <span>CSS</span>
+                <div className={styles.progress}>
+                    <div className={styles.progressTitle}>
+                        <span>Sass</span>
+                    </div>
+                    <div className={`${styles.progressLine} ${styles.sass}`}>
+                        <span></span>
+                    </div>
                 </div>
-                <div className="progress-line css">
-                    <span></span>
+                <div className={styles.progress}>
+                    <div className={styles.progressTitle}>
+                        <span>JS</span>
+                    </div>
+                    <div className={`${styles.progressLine} ${styles.js}`}>
+                        <span></span>
+                    </div>
                 </div>
-            </div>
-            <div className="progress">
-                <div className="progress-title">
-                    <span>Sass</span>
+                <div className={styles.progress}>
+                    <div className={styles.progressTitle}>
+                        <span>React</span>
+                    </div>
+                    <div className={`${styles.progressLine} ${styles.react}`}>
+                        <span></span>
+                    </div>
                 </div>
-                <div className="progress-line sass">
-                    <span></span>
+                <div className={styles.progress}>
+                    <div className={styles.progressTitle}>
+                        <span>Next</span>
+                    </div>
+                    <div className={`${styles.progressLine} ${styles.next}`}>
+                        <span></span>
+                    </div>
                 </div>
-            </div>
-            <div className="progress">
-                <div className="progress-title">
-                    <span>JS</span>
-                </div>
-                <div className="progress-line js">
-                    <span></span>
-                </div>
-            </div>
-            <div className="progress">
-                <div className="progress-title">
-                    <span>React</span>
-                </div>
-                <div className="progress-line react">
-                    <span></span>
-                </div>
-            </div>
-            <div className="progress">
-                <div className="progress-title">
-                    <span>Next</span>
-                </div>
-                <div className="progress-line next">
-                    <span></span>
-                </div>
-            </div>
-            <div className="progress">
-                <div className="progress-title">
-                    <span>TypeScript</span>
-                </div>
-                <div className="progress-line ts">
-                    <span></span>
+                <div className={styles.progress}>
+                    <div className={styles.progressTitle}>
+                        <span>TypeScript</span>
+                    </div>
+                    <div className={`${styles.progressLine} ${styles.ts}`}>
+                        <span></span>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,0 +1,43 @@
+.experiences {
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.work,
+.education {
+  background-color: rosybrown;
+  display: grid;
+  align-content: flex-start;
+  height: 100%;
+  gap: 0.5rem;
+}
+
+.work div,
+.education div {
+  background-color: seagreen;
+}
+
+.work div h4,
+.education div h4 {
+  background-color: rgb(46, 139, 134);
+  padding: 0 1rem;
+}
+
+.work div p,
+.education div p {
+  background-color: slateblue;
+  padding: 0 1rem;
+}
+
+@media only screen and (max-width: 999px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}

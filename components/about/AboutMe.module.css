@@ -1,0 +1,13 @@
+.about {
+  background-color: powderblue;
+  margin-top: 5rem;
+}
+
+.about ul {
+  margin: 0.5rem 0;
+}
+
+.about li {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}

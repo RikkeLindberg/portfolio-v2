@@ -1,0 +1,153 @@
+.progressBars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: cadetblue;
+}
+
+.progressBars div {
+  width: 100%;
+}
+
+.progress {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+.progressTitle {
+  margin-bottom: 5px;
+}
+
+.progressTitle span {
+  font-size: 16px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+
+@keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+
+.progressLine {
+  height: 10px;
+  width: 100%;
+  background-color: #f1f1f1;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5),
+    0px 1px rgba(255, 255, 255, 0.8);
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.progressLine span {
+  height: 100%;
+  background-color: #2ad183;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.progressLine.html span {
+  width: 90%;
+}
+
+.progressLine.css span {
+  width: 70%;
+}
+
+.progressLine.sass span {
+  width: 60%;
+}
+
+.progressLine.js span {
+  width: 60%;
+}
+
+.progressLine.react span {
+  width: 50%;
+}
+
+.progressLine.next span {
+  width: 50%;
+}
+
+.progressLine.ts span {
+  width: 10%;
+}
+
+.progressLine span::before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+
+.progressLine span::after {
+  position: absolute;
+  content: "";
+  top: -28px;
+  right: 0;
+  background-color: #000;
+  color: #f1f1f1;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+
+@keyframes showText2 {
+  100% {
+    opacity: 1;
+  }
+}
+
+.progressLine.html span::after {
+  content: "90%";
+}
+
+.progressLine.css span::after {
+  content: "70%";
+}
+
+.progressLine.sass span::after {
+  content: "60%";
+}
+
+.progressLine.js span::after {
+  content: "60%";
+}
+
+.progressLine.react span::after {
+  content: "50%";
+}
+
+.progressLine.next span::after {
+  content: "50%";
+}
+
+.progressLine.ts span::after {
+  content: "10%";
+}

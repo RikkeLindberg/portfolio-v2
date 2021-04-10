@@ -1,8 +1,9 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
+import styles from './Button.module.css';
 
 export default function Button({ children, link }) {
     return (
-        <button>
+        <button className={styles.button}>
             <a href={ link }>
                 { children }
             </a>

@@ -1,13 +1,12 @@
-import Button from "./ui/Button";
-import Heading from "./typography/Heading";
-import Paragraph from "./typography/Paragraph";
+import Button from './ui/Button';
+import Heading from './typography/Heading';
+import styles from './Hero.module.css';
 
 export default function Hero() {
     return (
-        <div>
-            <Heading size="1" title="Front end developer"/>
-            <Heading size="2" title="rikke lindberg"/>
-            <Paragraph content="blablabla" />
+        <div className={styles.hero}>
+            <Heading size="1" title="Rikke Lindberg"/>
+            <Heading size="2" title="Front-End Developer"/>
             <Button link="#portfolio">View my portfolio</Button>
         </div>
     )
