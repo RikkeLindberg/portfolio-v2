@@ -1,11 +1,12 @@
 import Project from './Project';
 import { projectData } from '../../data/projects';
+import styles from './Projects.module.css';
 
 export default function Projects() {
     return (
-        <div>
+        <div className={ styles.container }>
             {projectData.map(project => (
-                <Project 
+                <Project
                     key={project.id}
                     image={project.thumbnail}
                     title={project.name}
