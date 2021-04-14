@@ -1,5 +1,4 @@
 import Courses from '../courses/Courses';
-import DevProgress from './DevProgress';
 import Education from './Education';
 import Tools from './Tools';
 import Work from './Work';
@@ -14,7 +13,6 @@ export default function Experiences() {
                 <Education />
             </div>
             <Tools />
-            <DevProgress />
             <Courses />
         </div>
     )
