@@ -6,10 +6,10 @@
 .hero h1 {
   line-height: 1;
   text-transform: uppercase;
-  font-size: min(max(5rem, 7vw), 7rem);
+  font-size: min(max(3.5rem, 7vw), 7rem);
 
-  @supports (font-size: clamp(5rem, 7vw, 7rem)) {
-    font-size: clamp(5rem, 7vw, 7rem);
+  @supports (font-size: clamp(3rem, 7vw, 7rem)) {
+    font-size: clamp(3rem, 7vw, 7rem);
   }
 }
 
@@ -17,6 +17,11 @@
   line-height: 1.2;
   margin-bottom: 2rem;
   text-transform: unset;
+  font-size: min(max(2rem, 2.5vw), 3rem);
+
+  @supports (font-size: clamp(3rem, 7vw, 7rem)) {
+    font-size: clamp(3rem, 7vw, 7rem);
+  }
 }
 
 @media only screen and (max-width: 800px) {
