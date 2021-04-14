@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import styles from './Button.module.css';
 
-export default function Button({ children, link }) {
+export default function Button({ link, children }) {
     return (
         <button className={styles.button}>
             <a href={ link }>
@@ -12,6 +12,6 @@ export default function Button({ children, link }) {
 }
 
 Button.propTypes = {
-    children: PropTypes.element.isRequired,
-	link: PropTypes.string.isRequired,
+    children: PropTypes.string.isRequired,
+	link: PropTypes.string,
 };
