@@ -1,0 +1,23 @@
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.cards a {
+  width: 100%;
+  max-width: 400px;
+}
+
+.cards a h4 {
+  margin-bottom: 0.5rem;
+}
