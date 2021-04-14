@@ -1,12 +1,18 @@
-.media {
-  margin-right: 1.7rem;
-}
-
 .media__icon {
   font-size: 3rem;
   color: #f1f1f1;
+  transition: 300ms;
 }
 
-.media__link:not(:last-of-type) {
-  margin-right: 1rem;
+.media__icon:hover,
+.media__icon:focus {
+  color: #ff00ae;
+}
+
+.media__icon:active {
+  color: #ffd000;
+}
+
+.media__link {
+  margin-right: 1.7rem;
 }
