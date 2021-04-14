@@ -1,0 +1,38 @@
+.container {
+  margin-top: 5rem;
+}
+
+.form {
+  width: 100%;
+  max-width: 400px;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+
+.form input {
+  font-size: 1.6rem;
+  height: 40px;
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+  background-color: #3cbc8d;
+  color: white;
+  border: none;
+}
+
+.form textarea {
+  height: 180px;
+  font-size: 1.6rem;
+  font-family: inherit;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.submitMessage {
+  background-color: green;
+  width: 100%;
+  max-width: 400px;
+}
+
+.error {
+  color: red;
+}
