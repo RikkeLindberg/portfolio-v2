@@ -9,15 +9,27 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  gap: 3rem;
-  margin-top: 3rem;
+  gap: 5rem;
+  margin-top: 5rem;
 }
 
 .cards a {
-  width: 100%;
-  max-width: 400px;
+  position: relative;
 }
 
 .cards a h4 {
-  margin-bottom: 0.5rem;
+  position: absolute;
+  z-index: 100;
+  background-color: #ff00ae;
+  color: #f1f1f1;
+  top: -1rem;
+  left: -1rem;
+  padding: 0.5rem 1rem;
+  transition: all 300ms;
+}
+
+.cards a:hover h4,
+.cards a:focus h4 {
+  background-color: #ffd000;
+  color: #1a1d22;
 }
