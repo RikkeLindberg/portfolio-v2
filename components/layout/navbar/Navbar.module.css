@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background-color: #1c1c1c;
+  background-color: #1a1d22;
   z-index: 100;
 }
 
@@ -17,6 +17,15 @@
   font-weight: 400;
   color: #f1f1f1;
   padding: 1.5rem 1.7rem;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: #ff00ae;
+}
+
+.nav__link:active {
+  color: #ffd000;
 }
 
 .toggle__nav,
@@ -36,7 +45,7 @@
     position: absolute;
     right: 0;
     top: 5.4rem;
-    background-color: #1c1c1c;
+    background-color: #1a1d22;
     width: 100%;
   }
 
@@ -46,6 +55,12 @@
     padding: 0 0.5rem;
     position: relative;
     cursor: pointer;
+    transition: all 300ms;
+  }
+
+  .nav__toggle:hover,
+  .nav__toggle:focus {
+    border: 2px solid #ff00ae;
   }
 
   .navtoggle__icon {
@@ -60,7 +75,7 @@
     width: 3rem;
     height: 2px;
     background-color: #f1f1f1;
-    transition: all 200ms;
+    transition: all 300ms;
   }
 
   .navtoggle__icon::before,
@@ -81,7 +96,7 @@
   .nav__toggle:hover .navtoggle__icon,
   .nav__toggle:hover .navtoggle__icon::before,
   .nav__toggle:hover .navtoggle__icon::after {
-    background-color: #f1f1f1;
+    background-color: #ff00ae;
   }
 
   .toggle__nav:checked + .nav__toggle .navtoggle__icon::before {
