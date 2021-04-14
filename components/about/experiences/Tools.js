@@ -19,7 +19,6 @@ import styles from './Tools.module.css';
 export default function Tools() {
     return (
         <div className={styles.tools}>
-            <Heading size="3" title="Tools"/>
             <div>
                 <ul className={styles.list}>
                     <li><SiAdobephotoshop /></li>
