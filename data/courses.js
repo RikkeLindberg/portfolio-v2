@@ -3,7 +3,7 @@ export const courseData = [
         'id': 1,
         'name': 'Advanced CSS and Sass',
         'link': 'https://www.udemy.com/course/advanced-css-and-sass/',
-        'certificate': '',
+        'certificate': '/images/css-and-sass-course.jpg',
         'progress': '100%',
     },
     {
@@ -11,6 +11,6 @@ export const courseData = [
         'name': 'JavaScript Simplified',
         'link': 'https://courses.webdevsimplified.com/',
         'certificate': null,
-        'progress': '0%',
+        'progress': '/images/js-simplified.jpg',
     },
 ]
