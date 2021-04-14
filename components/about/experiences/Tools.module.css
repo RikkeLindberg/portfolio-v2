@@ -2,8 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5rem 0;
-  background-color: turquoise;
+  margin: 16rem 0;
 }
 
 .tools div {
@@ -15,14 +14,12 @@
 
 .list {
   display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .list li {
   display: flex;
-  font-size: 3rem;
-  color: rgb(100, 0, 0);
-}
-
-.list li:not(:last-of-type) {
-  margin-right: 1.5rem;
+  font-size: 3.5rem;
+  color: #ff00ae;
 }
