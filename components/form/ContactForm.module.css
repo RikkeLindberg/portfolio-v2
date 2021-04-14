@@ -1,7 +1,3 @@
-.container {
-  margin-top: 5rem;
-}
-
 .form {
   width: 100%;
   max-width: 400px;
@@ -14,8 +10,8 @@
   height: 40px;
   margin-bottom: 1rem;
   padding: 0 0.5rem;
-  background-color: #3cbc8d;
-  color: white;
+  background-color: #e9e9e9;
+  color: #616161;
   border: none;
 }
 
@@ -25,12 +21,22 @@
   font-family: inherit;
   padding: 0.5rem;
   margin-bottom: 1rem;
+  background-color: #e9e9e9;
+  border: none;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: 1px solid #ff00ae;
 }
 
 .submitMessage {
-  background-color: green;
+  background-color: #ff00ae;
+  color: #f1f1f1;
   width: 100%;
   max-width: 400px;
+  margin-top: 3rem;
+  padding: 0 1.5rem;
 }
 
 .error {

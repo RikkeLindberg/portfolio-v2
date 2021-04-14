@@ -18,8 +18,8 @@
 }
 
 .cards a h4 {
+  z-index: 10;
   position: absolute;
-  z-index: 100;
   background-color: #ff00ae;
   color: #f1f1f1;
   top: -1rem;

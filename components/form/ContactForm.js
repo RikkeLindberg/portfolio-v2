@@ -64,7 +64,7 @@ export default function ContactForm() {
   }
 
   return (
-    <div className={styles.container}>
+    <>
         <div className={styles.submitMessage}>
             {status.info.error && (
                 <div className="error">Error: {status.info.msg}</div>
@@ -105,6 +105,6 @@ export default function ContactForm() {
                 : 'Submitting...'}
             </Button>
         </form>
-    </div>
+    </>
   )
 }

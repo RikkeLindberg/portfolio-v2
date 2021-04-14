@@ -3,28 +3,45 @@
   flex-wrap: wrap;
   gap: 5rem;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 8rem;
 }
 
 .card {
   position: relative;
+  cursor: pointer;
 }
 
-.card h4 {
-  position: absolute;
-  top: -1.5rem;
-  left: -1rem;
-  background-color: cadetblue;
-  padding: 0.5rem 1rem;
+.card img {
+  z-index: 10;
+}
+
+.card:hover .links,
+.card:focus .links {
+  transform: translateY(-5px);
 }
 
 .links {
   position: absolute;
-  bottom: 0;
+  transition: all 700ms;
   width: 100%;
+  transform: translateY(-50px);
 }
 
 .links a {
-  margin: 0 0.8rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  color: #f1f1f1;
+  background-color: #ff00ae;
+  padding: 0.5rem 1rem;
+  width: 50%;
+  text-transform: capitalize;
+}
+
+.links a:hover,
+.links a:focus {
+  background-color: #ffd000;
+  color: #1a1d22;
+}
+
+.links svg {
+  margin-right: 0.8rem;
 }

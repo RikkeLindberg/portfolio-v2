@@ -1,13 +1,11 @@
 import Course from './Course';
-import Heading from '../../typography/Heading';
 import { courseData } from '../../../data/courses';
 import styles from './Courses.module.css';
 
 export default function Courses() {
     return (
         <div className={styles.courses}>
-            <Heading size="3" title="Courses"/>
-            
+  
             <div className={styles.cards}>
                 {courseData.map(course => (
                     <Course 
