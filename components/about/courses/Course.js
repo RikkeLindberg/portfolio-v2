@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 import Image from 'next/image';
 import Link from 'next/link';
 import Heading from '../../typography/Heading';
