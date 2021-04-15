@@ -9,9 +9,9 @@ export default function AboutMe() {
 
     return (
         <div className={styles.about}>
-            <Heading size="3" title="So who am I.." />
+            <Heading size="3" title="So who is Rikke.." />
             <ul>
-                <li>👋 I'm { age } y/o from Vesterålen, Norway</li>
+                <li>👋 I'm { age } y/o from Vesterålen, Norway.</li>
                 <li>✨ I will describe myself as positive, structured and hardworking.</li>
                 <li>👩‍🎓 Currently a student at Noroff, studying the course Frontend Development and I'm graduating in June 2021.</li>
                 <li>🔥 I have always loved creating things, for me learning new things and challenge myself is what drives me.</li>
