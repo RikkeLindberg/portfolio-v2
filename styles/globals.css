@@ -22,6 +22,7 @@ body {
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f1f1f1;
+  color: #3a3a3a;
 }
 
 h2 {
@@ -67,7 +68,7 @@ li {
 
 .wrapper {
   flex: 1 0 auto;
-  padding: 5.4rem 0;
+  padding-top: 5.4rem;
 }
 
 .container {
@@ -93,17 +94,22 @@ section {
   padding: 10rem 0;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  flex-shrink: 0;
-  padding: 2rem 0;
-  background: #1f2833;
-  font-size: 1.4rem;
-  color: #f1f1f1;
+::-webkit-scrollbar {
+  width: 1rem;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1a1d22;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4a4e57;
+  border-radius: 5rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff00ae;
 }
