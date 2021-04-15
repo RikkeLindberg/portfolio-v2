@@ -1,16 +1,8 @@
-.courses {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 40rem));
   justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
   gap: 5rem;
-  margin-top: 5rem;
 }
 
 .cards a {
@@ -32,4 +24,10 @@
 .cards a:focus h4 {
   background-color: #ffd000;
   color: #1a1d22;
+}
+
+@media only screen and (max-width: 500px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
 }
