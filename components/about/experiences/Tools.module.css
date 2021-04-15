@@ -2,24 +2,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 16rem 0;
-}
-
-.tools div {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  padding: 3rem 0;
+  margin: 20rem 0;
 }
 
 .list {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .list li {
   display: flex;
   font-size: 3.5rem;
   color: #ff00ae;
+  margin-top: 1.5rem;
+}
+
+.list li:not(:last-of-type) {
+  margin-right: 1.5rem;
 }
