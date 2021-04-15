@@ -9,7 +9,7 @@ export default function AboutMe() {
 
     return (
         <div className={styles.about}>
-            <Heading size="3" title="So who is Rikke.." />
+            <Heading size="3" title="So who am I.." />
             <ul>
                 <li>👋 I'm { age } y/o from Vesterålen, Norway.</li>
                 <li>✨ I will describe myself as positive, structured and hardworking.</li>
