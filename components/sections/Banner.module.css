@@ -6,12 +6,11 @@
 .banner {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  gap: 7rem;
+}
+
+.hero {
+  margin-right: 5rem;
 }
 
 .image {
