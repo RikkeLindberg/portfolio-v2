@@ -19,7 +19,6 @@ import styles from './Tools.module.css';
 export default function Tools() {
     return (
         <div className={styles.tools}>
-            <div>
                 <ul className={styles.list}>
                     <li><SiAdobephotoshop /></li>
                     <li><SiAdobeillustrator /></li>
@@ -39,7 +38,6 @@ export default function Tools() {
                     <li><SiNextDotJs /></li>
                     <li><SiWordpress /></li>
                 </ul>
-            </div>
         </div>
     )
 }
