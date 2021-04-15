@@ -51,16 +51,10 @@
 
   .nav__toggle {
     display: inline-block;
-    border: 2px solid #f1f1f1;
     padding: 0 0.5rem;
     position: relative;
     cursor: pointer;
     transition: all 300ms;
-  }
-
-  .nav__toggle:hover,
-  .nav__toggle:focus {
-    border: 2px solid #ff00ae;
   }
 
   .navtoggle__icon {
