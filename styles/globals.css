@@ -98,18 +98,15 @@ section {
   width: 1rem;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #1a1d22;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #4a4e57;
   border-radius: 5rem;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #ff00ae;
 }
