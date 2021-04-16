@@ -1,18 +1,18 @@
-.media__icon {
+.icon {
   font-size: 3.2rem;
   color: #f1f1f1;
   transition: 300ms;
 }
 
-.media__icon:hover,
-.media__icon:focus {
+.icon:hover,
+.icon:focus {
   color: #ff00ae;
 }
 
-.media__icon:active {
+.icon:active {
   color: #ffd000;
 }
 
-.media__link {
+.link {
   margin-right: 1.7rem;
 }

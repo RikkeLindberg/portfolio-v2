@@ -4,15 +4,15 @@ import styles from './Media.module.css';
 
 export default function Media() {
     return (
-        <div className={styles.media}>
+        <div>
             <Link href="https://github.com/RikkeLindberg" target="_blank">
-                <a className={styles.media__link}>
-                    <FaGithub className={styles.media__icon} />
+                <a className={styles.link}>
+                    <FaGithub className={styles.icon} />
                 </a>
             </Link>
             <Link href="https://www.linkedin.com/in/rikkelindberg/" target="_blank">
-                <a className={styles.media__link}>
-                    <FaLinkedin className={styles.media__icon} />
+                <a className={styles.link}>
+                    <FaLinkedin className={styles.icon} />
                 </a>
             </Link>
         </div>
