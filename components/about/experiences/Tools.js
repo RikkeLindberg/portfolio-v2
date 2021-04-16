@@ -13,7 +13,6 @@ import {
     SiNextDotJs,
     SiWordpress
 } from 'react-icons/si';
-import Heading from '../../typography/Heading';
 import styles from './Tools.module.css';
 
 export default function Tools() {
