@@ -9,8 +9,16 @@ export default function Project({ title, image, github, link }) {
         <div className={ styles.card }>
             <Image src={ image } width="400" height="198" alt={title} />
             <div className={ styles.links }>
-                <Link href={github}><a><FaGithub />Code</a></Link>
-                <Link href={link}><a><FaExternalLinkAlt />Live site</a></Link>
+                <Link href={github}>
+                    <a target="_blank">
+                        <FaGithub />Code
+                    </a>
+                </Link>
+                <Link href={link}>
+                    <a target="_blank">
+                        <FaExternalLinkAlt />Live site
+                    </a>
+                </Link>
             </div>
         </div>
     )
