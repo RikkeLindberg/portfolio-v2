@@ -24,11 +24,6 @@ export default function Education() {
                 <Heading size="4" title="Sortland VGS avd Myre" />
                 <Paragraph content="Studiespesialisering" />
             </div>
-
-            <div className={styles.column}>
-                <Heading size="4" title="2001-2011" />
-                <Heading size="4" title="Myre barne- og ungdomsskole" />
-            </div>
         </div>
     )
 }
