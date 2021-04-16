@@ -10,13 +10,13 @@ export default function Work() {
             <div className={styles.column}>
                 <Heading size="4" title="2013-2019" />
                 <Heading size="4" title="Rema 1000 Sortland" />
-                <Paragraph content="Heltids ansatt, skift- og bestillings ansvarlig" />
+                <Paragraph content="Full-time employee, shift and order manager" />
             </div>
 
             <div className={styles.column}>
                 <Heading size="4" title="2011-2013" />
                 <Heading size="4" title="Rema 1000 Myre" />
-                <Paragraph content="Deltids ansatt, helger og ferier" />
+                <Paragraph content="Part-time employee, weekends and holidays" />
             </div>
         </div>
     )
