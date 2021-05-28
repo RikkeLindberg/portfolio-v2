@@ -4,10 +4,9 @@
   max-width: 300px;
   border: none;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
   font-size: 1.6rem;
   background-image: linear-gradient(to right, #ff00ae 0%, #ffd000 80%);
-  transition: 0.5s;
+  transition: all 300ms ease-in;
   background-size: 200% auto;
   color: #f1f1f1;
   cursor: pointer;
@@ -17,6 +16,7 @@
 .button:hover,
 .button:focus {
   background-position: right center; /* change the direction of the change here */
+  color: #3a3a3a;
 }
 
 .button:focus {

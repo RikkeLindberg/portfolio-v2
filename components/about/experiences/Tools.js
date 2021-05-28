@@ -9,6 +9,7 @@ import {
     SiJavascript,
     SiBootstrap,
     SiSass,
+    SiStrapi,
     SiReact,
     SiNextDotJs,
     SiWordpress
@@ -36,6 +37,7 @@ export default function Tools() {
                     <li><SiReact /></li>
                     <li><SiNextDotJs /></li>
                     <li><SiWordpress /></li>
+                    <li><SiStrapi /></li>
                 </ul>
         </div>
     )

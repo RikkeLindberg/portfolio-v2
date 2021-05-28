@@ -24,10 +24,6 @@
   color: #ff00ae;
 }
 
-.nav__link:active {
-  color: #ffd000;
-}
-
 .toggle__nav,
 .nav__toggle {
   display: none;

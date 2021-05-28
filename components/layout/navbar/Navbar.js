@@ -1,8 +1,11 @@
 import Link from 'next/link';
+import { useRouter } from "next/router";
 import Media from './Media';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
+    const router = useRouter();
+
     return (
         <nav className={styles.nav}>
             <input type="checkbox" id="toggle-nav" className={styles.toggle__nav} />

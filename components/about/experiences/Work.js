@@ -10,7 +10,7 @@ export default function Work() {
             <div className={styles.column}>
                 <Heading size="4" title="2013-2019" />
                 <Heading size="4" title="Rema 1000 Sortland" />
-                <Paragraph content="Full-time employee, shift and order manager" />
+                <Paragraph content="Full-time employee, responsible for shift and ordering" />
             </div>
 
             <div className={styles.column}>
