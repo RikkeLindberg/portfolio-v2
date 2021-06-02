@@ -7,7 +7,7 @@ export default function Banner() {
         <section id="home" className={styles.section}>
             <div className={styles.banner}>
                 <Hero className={styles.hero} />
-                <Image className={styles.image} src="/images/profile.jpg" width="300" height="300" alt="profile" />
+                <Image className={styles.image} src="/images/profile-img.jpg" width="300" height="300" alt="profile" />
             </div>
         </section>
     )
