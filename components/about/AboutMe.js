@@ -1,5 +1,5 @@
-import Heading from '../typography/Heading';
-import styles from './AboutMe.module.css';
+import Heading from '../typography/Heading'
+import styles from './AboutMe.module.css'
 
 export default function AboutMe() {
     const birth = new Date('1995-02-08');
@@ -16,6 +16,7 @@ export default function AboutMe() {
                 <li>👩‍🎓 Currently a student at Noroff, studying the course Frontend Development and I'm graduating in June 2021.</li>
                 <li>🔥 I have always loved creating things, for me learning new things and challenge myself is what drives me.</li>
                 <li>💻 The reason for becoming a Frontend Developer is because it challenges both my creative and structural side.</li>
+                <li>🦄 Passionate about learning the latest technologies, and creating responsive and user friendly applications.</li>
                 <li>⛰️ Besides coding I love mountain hiking, training and dogs.</li>
             </ul>
         </div>

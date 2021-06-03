@@ -1,7 +1,7 @@
-import PropTypes from 'prop-types';
-import Image from 'next/image';
-import Link from 'next/link';
-import Heading from '../../typography/Heading';
+import PropTypes from 'prop-types'
+import Image from 'next/image'
+import Link from 'next/link'
+import Heading from '../../typography/Heading'
 
 export default function Course({ title, certificate, progress, courseLink }) {
     return (

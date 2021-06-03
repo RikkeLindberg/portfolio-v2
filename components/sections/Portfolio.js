@@ -1,5 +1,5 @@
-import Projects from "../project/Projects";
-import Heading from "../typography/Heading";
+import Projects from '../project/Projects'
+import Heading from '../typography/Heading'
 
 export default function Portfolio() {
     return (

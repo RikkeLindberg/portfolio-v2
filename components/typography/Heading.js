@@ -1,10 +1,10 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 export default function Heading({ size = "1", title }) {
-    const HeadingTag = `h${size}`;
+    const HeadingTag = `h${ size }`;
 
     return (
-        <HeadingTag>{title}</HeadingTag>
+        <HeadingTag>{ title }</HeadingTag>
     )
 }
 

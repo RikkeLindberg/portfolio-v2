@@ -1,5 +1,5 @@
-import ContactForm from '../form/ContactForm';
-import Heading from '../typography/Heading';
+import ContactForm from '../form/ContactForm'
+import Heading from '../typography/Heading'
 
 export default function Contact() {
     return (

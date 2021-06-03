@@ -1,7 +1,7 @@
-import axios from 'axios';
-import React, { useState } from 'react';
-import Button from '../ui/Button';
-import styles from './ContactForm.module.css';
+import axios from 'axios'
+import React, { useState } from 'react'
+import Button from '../ui/Button'
+import styles from './ContactForm.module.css'
 
 export default function ContactForm() {
   const [status, setStatus] = useState({
@@ -65,21 +65,21 @@ export default function ContactForm() {
 
   return (
     <>
-        <div className={styles.submitMessage}>
-            {status.info.error && (
-                <div className="error">Error: {status.info.msg}</div>
+        <div className={ styles.submitMessage }>
+            { status.info.error && (
+                <div className="error">Error: { status.info.msg }</div>
             )}
-            {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
+            { !status.info.error && status.info.msg && <p>{ status.info.msg }</p> }
         </div>
 
-        <form className={styles.form} onSubmit={handleOnSubmit}>
+        <form className={ styles.form } onSubmit={ handleOnSubmit }>
           <label htmlFor="name">Name</label>
           <input
             id="name"
             type="text"
-            onChange={handleOnChange}
+            onChange={ handleOnChange }
             required
-            value={inputs.name}
+            value={ inputs.name }
           />
 
           <label htmlFor="email">Email</label>
@@ -87,21 +87,21 @@ export default function ContactForm() {
             id="email"
             type="email"
             name="_replyto"
-            onChange={handleOnChange}
+            onChange={ handleOnChange }
             required
-            value={inputs.email}
+            value={ inputs.email }
           />
 
           <label htmlFor="message">Message</label>
           <textarea
             id="message"
             name="message"
-            onChange={handleOnChange}
+            onChange={ handleOnChange }
             required
-            value={inputs.message}
+            value={ inputs.message }
           />
 
-          <Button type="submit" disabled={status.submitting}>
+          <Button type="submit" disabled={ status.submitting }>
             { !status.submitting
               ? !status.submitted
               ? 'Submit'

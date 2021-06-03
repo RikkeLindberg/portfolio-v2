@@ -1,20 +1,20 @@
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
-import PropTypes from "prop-types";
-import Image from 'next/image';
-import Link from 'next/link';
-import styles from './Projects.module.css';
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
+import PropTypes from 'prop-types'
+import Image from 'next/image'
+import Link from 'next/link'
+import styles from './Projects.module.css'
 
 export default function Project({ title, image, github, link }) {
     return (
         <div className={ styles.card }>
-            <Image src={ image } width="400" height="198" alt={title} />
+            <Image src={ image } width="400" height="198" alt={ title } />
             <div className={ styles.links }>
-                <Link href={github}>
+                <Link href={ github }>
                     <a target="_blank">
                         <FaGithub />Code
                     </a>
                 </Link>
-                <Link href={link}>
+                <Link href={ link }>
                     <a target="_blank">
                         <FaExternalLinkAlt />Live site
                     </a>

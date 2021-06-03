@@ -1,8 +1,8 @@
-  import PropTypes from "prop-types";
+  import PropTypes from 'prop-types'
 
 export default function Paragraph({ content }) {
     return (
-        <p>{content}</p>
+        <p>{ content }</p>
     )
 }
 

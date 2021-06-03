@@ -13,13 +13,13 @@ import {
     SiReact,
     SiNextDotJs,
     SiWordpress
-} from 'react-icons/si';
-import styles from './Tools.module.css';
+} from 'react-icons/si'
+import styles from './Tools.module.css'
 
 export default function Tools() {
     return (
-        <div className={styles.tools}>
-                <ul className={styles.list}>
+        <div className={ styles.tools }>
+                <ul className={ styles.list }>
                     <li><SiAdobephotoshop /></li>
                     <li><SiAdobeillustrator /></li>
                     <li><SiAdobexd /></li>
@@ -28,7 +28,7 @@ export default function Tools() {
                     <li><SiFilezilla /></li>
                 </ul>
 
-                <ul className={styles.list}>
+                <ul className={ styles.list }>
                     <li><SiHtml5 /></li>
                     <li><SiCss3 /></li>
                     <li><SiJavascript /></li>

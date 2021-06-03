@@ -1,6 +1,6 @@
-import PropTypes from 'prop-types';
-import Navbar from './navbar/Navbar';
-import Footer from './Footer';
+import PropTypes from 'prop-types'
+import Navbar from './navbar/Navbar'
+import Footer from './Footer'
 
 export default function Container({ children }) {
     return (
