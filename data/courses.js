@@ -11,6 +11,6 @@ export const courseData = [
         'name': 'JavaScript Simplified',
         'link': 'https://courses.webdevsimplified.com/',
         'certificate': null,
-        'progress': '/images/js-simplified.jpg',
+        'progress': '/images/js-simplified.png',
     },
 ]
